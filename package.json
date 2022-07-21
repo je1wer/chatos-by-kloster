@@ -1,0 +1,26 @@
+{
+  "name": "helpdesk-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "forever -w server.js",
+    "forever": "forever",
+    "kill": "forever stopall"
+  },
+  "engines": {
+    "node": "16.10.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^3.3.0",
+    "forever": "^4.0.3",
+    "koa": "^2.13.4",
+    "koa-body": "^5.0.0",
+    "koa-router": "^10.1.1",
+    "moment-timezone": "^0.5.34",
+    "uuid": "^8.3.2",
+    "ws": "^8.6.0"
+  }
+}
